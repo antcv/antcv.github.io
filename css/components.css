@@ -45,7 +45,7 @@ header.nav {
 /*stili per scritta header big*/
 
 header.head-name {
-  background: #d23333;
+  background: blue;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ header.head-name {
 }
 
 header.clicked {
-  background-color: #673ab7;
+  background-color: #d23333;
 }
 
 .title {
