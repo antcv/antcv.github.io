@@ -2,7 +2,7 @@
 title: "Antonio Trento Resume"
 description: "A resume of a computer science, social and art fanathic."
 baseurl: "/antcv.github.io" # the subpath of your site, e.g. /blog
-url: "https://antcv.github.io/antcv/antcv.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://antcv.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 
 # Build settings
