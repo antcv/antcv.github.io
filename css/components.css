@@ -6,6 +6,8 @@ html, body {
 
 .large-header {
    position: relative;
+   max-width: 100%;
+   min-width: 100%;
    width: 100%;
    background: #111;
    overflow: hidden;
