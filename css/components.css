@@ -131,7 +131,7 @@ header.clicked {
 }
 
 
-header .container {
+header.giflinks {
 	position: relative;
 	height: 123px;
 	width: 540px;
@@ -159,7 +159,7 @@ header .front img {
 header .back {
 	background-size: cover;
 	background-position: 50% 100%;
-	background-image: url('http://tholman.com/giflinks/img/header_back.gif');
+	background-image: url('https://tholman.com/giflinks/img/header_back.gif');
 	z-index: 1;
 }
 
