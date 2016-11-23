@@ -1,6 +1,6 @@
 # Site settings
 title: "Antonio Trento Resume"
-description: "Un riassunto di un informatico, fanatico di web marketing e design."
+description: "Un riassunto di un informatico, interessato ed aggiornato di web marketing e design."
 baseurl: "/antcv.github.io" # the subpath of your site, e.g. /blog
 url: "https://antcv.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
