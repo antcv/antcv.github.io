@@ -141,7 +141,7 @@ div[class*=box] {
           transform: translateY(250px);
 }
 .box-2 .layer .inner {
-  background-color: #B95F89;
+  background-color: #67AAF9;
   width: 600px;
   height: 400px;
   position: relative;
