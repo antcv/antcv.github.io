@@ -5,6 +5,28 @@
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
+<div>
+      <div class="container">
+  <div class="box-1">
+    <h1>hover me</h1>
+    <div class="share-buttons"><a href="#" class="btn facebook"><i class="fa fa-facebook"></i></a>&#x9;&#x9;&#x9;<a href="#" class="btn twitter"><i class="fa fa-twitter"></i></a>&#x9;&#x9;&#x9;<a href="#" class="btn google"><i class="fa fa-google"></i></a></div>&#x9;
+  </div>
+  <div class="box-2">
+    <div class="layer">
+      <div class="inner">
+        <h1>hover me</h1>
+      </div>&#x9;&#x9;&#x9;<a href="#" class="btn facebook"><i class="fa fa-facebook"></i></a>&#x9;&#x9;&#x9;<a href="#" class="btn twitter"><i class="fa fa-twitter"></i></a>&#x9;&#x9;&#x9;<a href="#" class="btn google"><i class="fa fa-google"></i></a>
+    </div>
+  </div>
+  <div class="box-3">
+    <h1>hover me</h1>
+    <div class="share-buttons"><a href="#" class="btn facebook"><i class="fa fa-facebook"></i></a>&#x9;&#x9;&#x9;<a href="#" class="btn twitter"><i class="fa fa-twitter"></i></a>&#x9;&#x9;&#x9;<a href="#" class="btn google"><i class="fa fa-google"></i></a></div>&#x9;
+    <div class="layer"></div>
+  </div>
+</div>
+</div>
+<!--End tests-->
+
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
 
       <header class="page-header">
@@ -21,7 +43,7 @@
 
           <!-- Your title is also defined in the _config.yml file -->
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
- 
+
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
         </div>

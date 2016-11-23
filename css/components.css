@@ -1,0 +1,230 @@
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1.social {
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+div[class*=box] {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 60px;
+  box-shadow: 6px 5px 30px -4px rgba(0, 0, 0, 0.55);
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+.btn.facebook {
+  background-color: #3b5998;
+}
+.btn.twitter {
+  background-color: #55acee;
+}
+.btn.google {
+  background-color: #dd4b39;
+}
+.btn .fa {
+  font-size: 35px;
+  color: #fff;
+}
+
+/*
+=========================
+        BOX ONE
+=========================
+*/
+.box-1 {
+  background-color: #67AAF9;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-1 .share-buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid transparent;
+  width: 0;
+  height: 0;
+  z-index: 10;
+  -webkit-transition: all 0.4s 0s,  border 0.4s 0.6s,  height 0.4s 0.4s,  margin 0.4s 0.4s;
+  transition: all 0.4s 0s,  border 0.4s 0.6s,  height 0.4s 0.4s,  margin 0.4s 0.4s;
+}
+.box-1:hover .share-buttons {
+  height: 200px;
+  width: 400px;
+  margin-top: -100px;
+  border-color: #dbdbdb;
+  background-color: #c4e0f9;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+.box-1 .btn {
+  opacity: 0;
+}
+.box-1:hover .btn {
+  opacity: 1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+/*
+=========================
+        BOX TWO
+=========================
+*/
+.box-2 {
+  background: #C4E0F9;
+}
+.box-2 .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  -webkit-transition: 0.4s 0.8s;
+  transition: 0.4s 0.8s;
+}
+.box-2:hover .layer {
+  -webkit-transition: 0.4s 0s;
+  transition: 0.4s 0s;
+  -webkit-transform: translateY(250px);
+          transform: translateY(250px);
+}
+.box-2 .layer .inner {
+  background-color: #B95F89;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  z-index: 5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-2 .btn {
+  position: absolute;
+  top: 10px;
+  opacity: 0;
+  z-index: 2;
+}
+.box-2:hover .btn {
+  opacity: 1;
+  -webkit-transform: translateY(-150px);
+          transform: translateY(-150px);
+}
+.box-2 .facebook {
+  left: 20%;
+  -webkit-transition: 0.4s 0.6s;
+  transition: 0.4s 0.6s;
+}
+.box-2 .twitter {
+  left: 45%;
+  -webkit-transition: 0.4s 0.4s;
+  transition: 0.4s 0.4s;
+}
+.box-2 .google {
+  left: 70%;
+  -webkit-transition: 0.4s 0.2s;
+  transition: 0.4s 0.2s;
+}
+
+/*
+=========================
+       BOX THREE
+=========================
+*/
+.box-3 {
+  background-color: #2EC0F9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-3:hover .share-buttons {
+  opacity: 1;
+  padding: 0 18%;
+}
+.box-3 .share-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 10;
+}
+.box-3 .btn {
+  display: inline-block;
+  margin: 175px 40px;
+}
