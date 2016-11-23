@@ -9,23 +9,17 @@
   {% if site.resume_theme == 'default' %}
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
   {% endif %}
-
+  <script src="//use.typekit.net/kkm1fdd.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ site.url }}/css/main.css">
   <link rel="stylesheet" href="{{ site.url }}/css/404.css">
-  <link rel="stylesheet" href="{{ site.url }}/css/components.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
 </head>
 
-  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
-    <header class="nav">
-    <div class="header-proper">
-      <h1 class="logo">Antonio<span class="blue">Trento</span>
-      </h1>
-    </div>
+  <body>
 <div class="twinkling"></div>
 <div class="video">
 	<video id="InformationVideo" class="information__video information__video--visible" preload="auto" autobuffer="" autoload="" autoplay="" loop="">
