@@ -7,3 +7,17 @@ var wintop = $(window).scrollTop(), docheight =
 
   		$('.scroll-line').css('width', (scrolled + '%'));
 });
+
+var _el= $(".title");
+
+_el.click(function(){
+
+  if (_el.hasClass("clicked")) {
+  	$(this).removeClass("clicked");
+  	$(this).parent("header").removeClass("clicked");
+  } else {
+  	$(this).addClass("clicked");
+  	$(this).parent("header").addClass("clicked");
+  }
+
+});
