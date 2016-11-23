@@ -9,7 +9,7 @@ html, body {
    width: 100%;
    background: #111;
    overflow: hidden;
-   background-size: 100% auto;
+   background-size: cover;
    background-position: center center;
    z-index: 1;
 }
