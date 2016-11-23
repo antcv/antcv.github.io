@@ -6,6 +6,9 @@ header.nav {
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #ccc;
+  -webkit-filter: blur(10px); /* Chrome, Opera, etc. */
+  filter: url('http://jordanhollinger.com/media/blur.svg'); /* Older FF and others - http://jordanhollinger.com/media/blur.svg */
+  filter: blur(10px); /* Firefox 35+, eventually all */
 }
 
 .header-proper {
