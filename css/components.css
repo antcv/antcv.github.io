@@ -39,29 +39,3 @@ header.nav {
   font-size: 60px;
   line-height: 66px;
 }
-
-
-
-
-
-
-/*Codepen style*/
-.profile-name {
-  display: none;
-}
-
-.profile-header {
-  height: 800px;
-}
-
-a.logo {
-  display: inline-block;
-  margin-top: -50px;
-  margin-bottom: 50px;
-  width: 128px;
-  height: 31px;
-  background-image: url("//www.tinymce.com/images/logo-tinymce-onblue@2x.png");
-  background-size: 128px 31px;
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
