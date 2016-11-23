@@ -94,7 +94,7 @@ header.clicked {
 }
 
 .title h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 900;
   text-align: center;
 }
@@ -104,4 +104,19 @@ header.clicked {
   font-weight: 200;
   text-align: right;
   margin-right: 5px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .title h1 {
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-size: 0.5em;
+    font-weight: 200;
+    text-align: right;
+    margin-right: 5px;
+  }
 }
