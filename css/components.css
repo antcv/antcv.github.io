@@ -2751,7 +2751,7 @@ Video
     display: block;
   }
   .video.cd-intro-content p {
-    bottom: calc(50% + 240px);
+    bottom: calc(50% + 200px);
   }
   .video.cd-intro-content .action-wrapper {
     top: calc(50% + 200px);
