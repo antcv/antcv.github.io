@@ -486,7 +486,7 @@ xtype
   transform: translateY(-50%);
   height: 90%;
   width: 1px;
-  background-color: #ccff00;
+  background-color: #f6ff00;
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
@@ -494,7 +494,7 @@ xtype
   animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-  background-color:  #ccff00;
+  background-color:  #f6ff00;
 }
 .cd-headline.type .cd-words-wrapper.selected::after {
   visibility: hidden;
@@ -955,7 +955,7 @@ xclip
   right: 0;
   width: 2px;
   height: 100%;
-  background-color: #ccff00;
+  background-color: #f6ff00;
 }
 .cd-headline.clip b {
   opacity: 0;
