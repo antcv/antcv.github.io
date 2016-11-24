@@ -184,13 +184,14 @@ header.clicked {
 
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
 
 .video__wrapper {
   min-height: 100% !important;
-  background-color: blue; 
+  background-color: blue;
 
 }
 
