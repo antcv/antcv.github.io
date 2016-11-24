@@ -2578,7 +2578,7 @@ Parallax
 }
 @media only screen and (min-width: 768px) {
   .parallax .cd-btn.main-action {
-    padding: 0.5em 1em;
+    padding: 2em 3em;
   }
 }
 
