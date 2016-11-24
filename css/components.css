@@ -184,7 +184,7 @@ header.clicked {
 
 .video__wrapper {
 
-
+  min-width: 100% !important;
   height: 100vh !important;
 
 }
