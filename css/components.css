@@ -248,22 +248,22 @@ html, body {
   }
 }
 
-.cd-intro {
+.cd-intro2 {
   width: 90%;
   max-width: 768px;
   text-align: center;
 }
 
-.cd-intro {
+.cd-intro2 {
   margin: 4em auto;
 }
 @media only screen and (min-width: 768px) {
-  .cd-intro {
+  .cd-intro2 {
     margin: 5em auto;
   }
 }
 @media only screen and (min-width: 1170px) {
-  .cd-intro {
+  .cd-intro2 {
     margin: 6em auto;
   }
 }
