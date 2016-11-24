@@ -2728,7 +2728,7 @@ Video
   transform: translate(-50%, -50%);
 }
 .video.cd-intro-content p {
-  bottom: calc(50% + 240px);
+  bottom: calc(50% + 70px);
   margin: 0;
   color: #040404;
   min-width: 90%;
@@ -2751,7 +2751,7 @@ Video
     display: block;
   }
   .video.cd-intro-content p {
-    bottom: calc(50% + 60px);
+    bottom: calc(50% + 240px);
   }
   .video.cd-intro-content .action-wrapper {
     top: calc(50% + 200px);
