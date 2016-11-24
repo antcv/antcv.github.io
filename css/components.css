@@ -185,7 +185,6 @@ header.clicked {
 .video__wrapper {
   width: 100vh !important;
   background: blue !important;
-  display: flex !important;
   flex-direction: column !important;
 
 
@@ -195,14 +194,6 @@ header.clicked {
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
   display: flex !important;
-  -webkit-box-align: center !important;
-  -webkit-align-items: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
-  -webkit-box-pack: center !important;
-  -webkit-justify-content: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
   height: 100vh !important;
   font-size: 1.6rem !important;
   font-family: "Open Sans", sans-serif !important;
