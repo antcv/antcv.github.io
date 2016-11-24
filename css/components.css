@@ -2751,10 +2751,10 @@ Video
     display: block;
   }
   .video.cd-intro-content p {
-    bottom: calc(50% + 40px);
+    bottom: calc(50% + 80px);
   }
   .video.cd-intro-content .action-wrapper {
-    top: calc(50% + 150px);
+    top: calc(50% + 200px);
   }
 }
 
