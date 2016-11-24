@@ -73,7 +73,7 @@
 
   <div style="margin-top:5em" class="wrapper" itemscope itemtype="http://schema.org/Person">
 
-      <header id="intro" class="page-header">
+      <header class="page-header">
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
@@ -81,7 +81,7 @@
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <h1  id="intro" class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
         <div class="title-bar">
 
