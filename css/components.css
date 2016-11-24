@@ -2760,7 +2760,7 @@ Video
 .cd-bg-video-wrapper {
   /* background cover video */
   position: absolute;
-  z-index: 1;
+  z-index: 20;
   top: 0;
   left: 0;
   width: 100%;
