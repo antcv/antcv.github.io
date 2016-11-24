@@ -1474,7 +1474,7 @@ General Style
 .cd-intro {
   position: relative;
   height: 100vh;
-  width: 100%;
+  
   /* vertically align its content */
   display: table;
   background: blue;
