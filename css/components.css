@@ -185,7 +185,9 @@ header.clicked {
 .video__wrapper {
   min-height: 100% !important;
   width: 200vh;
+  background: blue;
   display: flex;
+  flex-direction: column;
 
 
   align-items: center !important;
