@@ -192,7 +192,7 @@ html, body {
 .video__wrapper {
   min-height: 100% !important;
   background-color: blue;
-  z-index: 100;
+
 }
 
 
@@ -1483,6 +1483,7 @@ General Style
 
 .cd-intro-content {
   /* vertically align inside its parent */
+  z-index: 100;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
