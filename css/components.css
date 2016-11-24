@@ -182,9 +182,17 @@ header.clicked {
 
 /* BOILERPLATE JUNK  and Animated headers*/
 
-.video__wrapper {
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
-  min-width: 100% !important;
+#wrapper {
+
+}
+
+.video__wrapper {
+  min-height: 100%;
   height: 100vh !important;
 
 }
