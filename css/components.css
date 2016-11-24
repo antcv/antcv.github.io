@@ -192,7 +192,7 @@ html, body {
 .video__wrapper {
   min-height: 100% !important;
   background-color: blue;
-
+  z-index: 100;
 }
 
 
@@ -2693,7 +2693,7 @@ Video
 }
 .video.cd-intro-content .svg-wrapper {
   position: absolute;
-  z-index: 20;
+  z-index: 2;
   top: 0;
   left: 0;
   height: 100%;
@@ -2760,7 +2760,7 @@ Video
 .cd-bg-video-wrapper {
   /* background cover video */
   position: absolute;
-  z-index: 20;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
