@@ -183,7 +183,7 @@ header.clicked {
 /* BOILERPLATE JUNK  and Animated headers*/
 
 .video__wrapper {
-  width: 100vh !important;
+  
   background: blue !important;
   flex-direction: column !important;
 
