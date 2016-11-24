@@ -181,16 +181,11 @@ header.clicked {
 
 
 /* BOILERPLATE JUNK */
+
+
 .svg__wrapper {
-  display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #fff;
-}
-
-
-.svg__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -204,5 +199,5 @@ header.clicked {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  background-color: #CDF6ED;
+  background-color: #0006ff;
 }
