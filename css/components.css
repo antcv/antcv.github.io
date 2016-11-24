@@ -183,6 +183,8 @@ header.clicked {
 /* BOILERPLATE JUNK  and Animated headers*/
 
 .video__wrapper {
+  min-height: 100% !important;
+  
   align-items: center !important;
   justify-content: center !important;
   display: -webkit-box !important;
