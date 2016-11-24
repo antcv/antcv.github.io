@@ -1545,12 +1545,12 @@ General Style
 }
 @media only screen and (min-width: 480px) {
   .cd-btn {
-    padding: 1.2em 1.6em;
+    padding: 1.2em 1.2em;
   }
 }
 @media only screen and (min-width: 768px) {
   .cd-btn {
-    padding: 1.4em 1.8em;
+    padding: 1.4em 1.4em;
   }
 }
 
@@ -2243,7 +2243,7 @@ Mask
 }
 .mask.cd-intro-content .action-wrapper .cd-btn {
   opacity: 1;
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 0;
 }
 .mask.cd-intro-content .action-wrapper .cd-btn:first-of-type {
   margin-left: 0;
