@@ -2734,7 +2734,7 @@ Video
   min-width: 90%;
 }
 .video.cd-intro-content .action-wrapper {
-  top: calc(50% + 120px);
+  top: calc(50% + 180px);
   min-width: 295px;
 }
 .video.cd-intro-content .cd-btn {
