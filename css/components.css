@@ -182,6 +182,15 @@ header.clicked {
 
 /* BOILERPLATE JUNK */
 .svg__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #CDF6ED;
+}
+
+
+.svg__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
