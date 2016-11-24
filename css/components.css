@@ -2754,7 +2754,7 @@ Video
     bottom: calc(50% + 40px);
   }
   .video.cd-intro-content .action-wrapper {
-    top: calc(50% + 80px);
+    top: calc(50% + 100px);
   }
 }
 
