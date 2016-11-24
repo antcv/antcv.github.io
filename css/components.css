@@ -200,6 +200,8 @@ header.clicked {
           justify-content: center;
   height: 100vh;
   background-color: #0006ff;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 
@@ -214,8 +216,6 @@ header.clicked {
   text-align: center;
 }
 .cd-title h1 {
-  color: #aebcb9 !important;
-  font-family: "Source Sans Pro", sans-serif !important;
   font-size: 2.4rem;
   font-weight: 700;
 }
