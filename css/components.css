@@ -180,7 +180,7 @@ header.clicked {
 
 
 
-/* BOILERPLATE JUNK */
+/* BOILERPLATE JUNK  and Animated headers*/
 
 
 .svg__wrapper {
@@ -486,7 +486,7 @@ xtype
   transform: translateY(-50%);
   height: 90%;
   width: 1px;
-  background-color: #aebcb9;
+  background-color:  #fa8d1f;
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
@@ -494,7 +494,7 @@ xtype
   animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-  background-color: #aebcb9;
+  background-color:  #fa8d1f;
 }
 .cd-headline.type .cd-words-wrapper.selected::after {
   visibility: hidden;
@@ -955,7 +955,7 @@ xclip
   right: 0;
   width: 2px;
   height: 100%;
-  background-color: #aebcb9;
+  background-color:  #fa8d1f;
 }
 .cd-headline.clip b {
   opacity: 0;
