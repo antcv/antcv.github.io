@@ -214,8 +214,8 @@ header.clicked {
   text-align: center;
 }
 .cd-title h1 {
-  color: #aebcb9;
-  font-family: "Source Sans Pro", sans-serif;
+  color: #aebcb9 !important;
+  font-family: "Source Sans Pro", sans-serif !important;
   font-size: 2.4rem;
   font-weight: 700;
 }
