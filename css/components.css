@@ -1483,7 +1483,6 @@ General Style
 
 .cd-intro-content {
   /* vertically align inside its parent */
-  z-index: 100;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
