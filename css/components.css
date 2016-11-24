@@ -191,6 +191,7 @@ html, body {
 
 .video__wrapper {
   min-height: 100% !important;
+  background-color: #fff;
 
 }
 
