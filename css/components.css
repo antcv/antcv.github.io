@@ -2575,12 +2575,12 @@ Parallax
 .parallax .cd-btn.main-action {
   background-color: #fb5e58;
   color: #ffffff;
-  padding: 1.8em 2.2em;
+  padding: 1.8em 1.8em;
   margin-top: 0;
 }
 @media only screen and (min-width: 768px) {
   .parallax .cd-btn.main-action {
-    padding: 2em 3em;
+    padding: 2em 2em;
   }
 }
 
