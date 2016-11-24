@@ -1477,7 +1477,7 @@ General Style
   width: 100%;
   /* vertically align its content */
   display: table;
-  background: #2e416a;
+  background: blue;
   overflow: hidden;
 }
 
@@ -1487,7 +1487,7 @@ General Style
   vertical-align: middle;
   text-align: center;
   padding: 0 5%;
-  background: #2e416a;
+  background: blue;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
