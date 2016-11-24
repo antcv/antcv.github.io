@@ -2693,7 +2693,7 @@ Video
 }
 .video.cd-intro-content .svg-wrapper {
   position: absolute;
-  z-index: 2;
+  z-index: 20;
   top: 0;
   left: 0;
   height: 100%;
