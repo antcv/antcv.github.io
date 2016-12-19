@@ -2803,10 +2803,14 @@ Video
 
 /* Button hover effect by pen http://codepen.io/dmensinger/pen/PPRzpK */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+.button-position{
+
+
+}
 .button-hover {
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);}
+          transform: translateX(-50%) translateY(-50%);
+}
 
 .button-hover {
   background: #333;
