@@ -1529,33 +1529,35 @@ General Style
   display: inline-block;
   padding: 1.2em 1.2em;
   font-size: 1.3rem;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
+  background-color: #202e4a;
   border-radius: .25em;
-  margin-right: 1.5em;
+  /*margin-right: 1.5em;*/
 }
 .cd-btn:nth-of-type(2) {
   margin-right: 0;
 }
 .cd-btn.main-action {
-  background-color: #0006ff;
+  background-color: #fb5e58;
 }
 @media only screen and (min-width: 480px) {
   .cd-btn {
-    padding: 1.2em 1.6em;
+    padding: 1.2em 1.2em;
   }
 }
 @media only screen and (min-width: 768px) {
   .cd-btn {
-    padding: 1.4em 1.8em;
+    padding: 1.4em 1.4em;
   }
 }
 
 .cd-intro-content h1,
 .cd-intro-content h1 span,
 .cd-intro-content p,
-.cd-intro-content {
+.cd-intro-content .cd-btn {
   opacity: 0;
   -webkit-animation-duration: 0.8s;
   -moz-animation-duration: 0.8s;
@@ -1598,19 +1600,19 @@ Bouncy
   animation-duration: 0.6s;
 }
 
-.bouncy.cd-intro-content {
+.bouncy.cd-intro-content .cd-btn {
   -webkit-animation-name: cd-bounce-rotate;
   -moz-animation-name: cd-bounce-rotate;
   animation-name: cd-bounce-rotate;
 }
 
-.bouncy.cd-intro-content {
+.bouncy.cd-intro-content .cd-btn {
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   animation-duration: 0.5s;
 }
 
-.bouncy.cd-intro-content {
+.bouncy.cd-intro-content .cd-btn.main-action {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -1837,7 +1839,7 @@ Cut
 
 .cut.cd-intro-content h1 span,
 .cut.cd-intro-content p,
-.cut.cd-intro-content {
+.cut.cd-intro-content .cd-btn {
   -webkit-animation-duration: 0.6s;
   -moz-animation-duration: 0.6s;
   animation-duration: 0.6s;
@@ -1862,7 +1864,7 @@ Cut
   animation-delay: 0.5s;
 }
 
-.cut.cd-intro-content {
+.cut.cd-intro-content .cd-btn {
   -webkit-animation-name: cd-slide-left-btn;
   -moz-animation-name: cd-slide-left-btn;
   animation-name: cd-slide-left-btn;
@@ -2241,7 +2243,7 @@ Mask
 }
 .mask.cd-intro-content .action-wrapper .cd-btn {
   opacity: 1;
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 0;
 }
 .mask.cd-intro-content .action-wrapper .cd-btn:first-of-type {
   margin-left: 0;
@@ -2562,7 +2564,7 @@ Parallax
   color: #6d7a97;
 }
 
-.parallax {
+.parallax .cd-btn {
   color: #202e4a;
   background-color: #ffffff;
   margin-top: .6em;
@@ -2570,15 +2572,15 @@ Parallax
   border-radius: 0;
   margin-right: 0;
 }
-.parallax {
+.parallax .cd-btn.main-action {
   background-color: #fb5e58;
   color: #ffffff;
-  padding: 1.8em 2.2em;
+  padding: 1.8em 1.8em;
   margin-top: 0;
 }
 @media only screen and (min-width: 768px) {
   .parallax .cd-btn.main-action {
-    padding: 2em 3em;
+    padding: 2em 2em;
   }
 }
 
@@ -2586,7 +2588,7 @@ Parallax
 .parallax.cd-intro-content h1 span::before,
 .parallax.cd-intro-content p span::after,
 .parallax.cd-intro-content p span::before,
-.parallax.cd-intro-content {
+.parallax.cd-intro-content .cd-btn {
   -webkit-animation-name: cd-slide-up;
   -moz-animation-name: cd-slide-up;
   animation-name: cd-slide-up;
@@ -2622,7 +2624,7 @@ Parallax
   animation-delay: 0.6s;
 }
 
-.parallax.cd-intro-content {
+.parallax.cd-intro-content .cd-btn {
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
   animation-delay: 0.7s;
@@ -2726,7 +2728,7 @@ Video
   transform: translate(-50%, -50%);
 }
 .video.cd-intro-content p {
-  bottom: calc(50% + 80px);
+  bottom: calc(50% + 180px);
   margin: 0;
   color: #040404;
   min-width: 90%;
@@ -2735,10 +2737,10 @@ Video
   top: calc(50% + 180px);
   min-width: 295px;
 }
-.video.cd-intro-content {
+.video.cd-intro-content .cd-btn {
   background-color: rgba(4, 4, 4, 0.4);
 }
-.video.cd-intro-content {
+.video.cd-intro-content .cd-btn.main-action {
   background-color: #fb5e58;
 }
 @media only screen and (min-width: 768px) {
@@ -2749,7 +2751,7 @@ Video
     display: block;
   }
   .video.cd-intro-content p {
-    bottom: calc(50% + 200px);
+    bottom: calc(50% + 80px);
   }
   .video.cd-intro-content .action-wrapper {
     top: calc(50% + 200px);
@@ -2796,81 +2798,4 @@ Video
   .cd-bg-video-wrapper::after {
     content: 'desktop';
   }
-}
-
-
-/* Button hover effect by pen http://codepen.io/dmensinger/pen/PPRzpK */
-
-.button-position{
-
-
-}
-.button-hover {
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-}
-
-.button-hover {
-  background: #333;
-  color: #ccc;
-  width: 200px;
-  height: 60px;
-  border: 0;
-  font-size: 18px;
-  border-radius: 4px;
-  font-family: 'Raleway', sans-serif;
-  -webkit-transition: .6s;
-  transition: .6s;
-  overflow: hidden;
-}
-.button-hover:focus {
-  outline: 0;
-}
-.button-hover:before {
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.5);
-  width: 60px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: .5;
-  -webkit-filter: blur(30px);
-          filter: blur(30px);
-  -webkit-transform: translateX(-100px) skewX(-15deg);
-          transform: translateX(-100px) skewX(-15deg);
-}
-.button-hover:after {
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.2);
-  width: 30px;
-  height: 100%;
-  left: 30px;
-  top: 0;
-  opacity: 0;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
-  -webkit-transform: translateX(-100px) skewX(-15deg);
-          transform: translateX(-100px) skewX(-15deg);
-}
-.button-hover:hover {
-  background: #338033;
-  cursor: pointer;
-}
-.button-hover:hover:before {
-  -webkit-transform: translateX(300px) skewX(-15deg);
-          transform: translateX(300px) skewX(-15deg);
-  opacity: 0.6;
-  -webkit-transition: .7s;
-  transition: .7s;
-}
-.button-hover:hover:after {
-  -webkit-transform: translateX(300px) skewX(-15deg);
-          transform: translateX(300px) skewX(-15deg);
-  opacity: 1;
-  -webkit-transition: .7s;
-  transition: .7s;
 }
