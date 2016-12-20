@@ -1537,8 +1537,11 @@ General Style
   border-radius: .25em;
   /*margin-right: 1.5em;*/
 }
+.cd-btn {
+  margin: 1em;
+}
 .cd-btn:nth-of-type(2) {
-  margin-right: 1em;
+  margin-right: 0;
 }
 .cd-btn.main-action {
   background-color: #fb5e58;
