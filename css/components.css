@@ -2802,17 +2802,13 @@ Video
     content: 'desktop';
   }
 }
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {   
- 
-}
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {   
 intro-content svg.svg-mask-mobile {
-    display: initial!important;
+    display:  block!important;
 }
 intro-content svg.svg-mask {
     display: none!important;
@@ -2824,7 +2820,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 2) { 
 intro-content svg.svg-mask-mobile {
-    display: initial!important;
+    display:  block!important;
 }
 intro-content svg.svg-mask {
     display: none!important;
