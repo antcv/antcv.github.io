@@ -2810,7 +2810,11 @@ and (max-device-width : 1024px)  {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
-and (orientation : portrait) {   .sgv-wrapper{
-  width: 70%!important;
-  height: 70%!important;
-  }  }
+and (orientation : portrait) {   
+intro-content svg.svg-mask-mobile {
+    display: initial;
+}
+intro-content svg.svg-mask {
+    display: none;
+}  
+}
