@@ -2812,9 +2812,9 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {   
 intro-content svg.svg-mask-mobile {
-    display: initial;
+    display: initial!important;
 }
 intro-content svg.svg-mask {
-    display: none;
+    display: none!important;
 }  
 }
