@@ -2807,16 +2807,22 @@ Video
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {   
-  .cd-bg-video-wrapper::after {
-    content: 'mobile';
-  } 
+   .video.cd-intro-content svg.svg-mask-mobile {
+    display: block;
+  }
+  .video.cd-intro-content svg.svg-mask {
+    display: none;
+  }
 }
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 2) { 
-  .cd-bg-video-wrapper::after {
-    content: 'mobile';
+   .video.cd-intro-content svg.svg-mask-mobile {
+    display: block;
+  }
+  .video.cd-intro-content svg.svg-mask {
+    display: none;
   }
 }
