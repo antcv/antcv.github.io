@@ -2805,8 +2805,8 @@ Video
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {   
-  sgv.sgv-mask{
-  width: 70%;
-  height: 70%;
+  .sgv-mask{
+  width: 70%!important;
+  height: 70%!important;
   }  
 }
