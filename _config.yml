@@ -15,7 +15,7 @@ sass:
 resume_avatar:                  "true"
 resume_name:                    "Antonio Trento"
 resume_title:                   "Web ninja, marketer and grow hacker."
-resume_contact_email:           "antoniotrento83@gmail.com"
+resume_contact_email:           "lantoniotrento@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -37,11 +37,11 @@ resume_section_associations:    true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/antoniotrento"
-  resume_twitter_url:           "http://twitter.com/officialtrento"
-  resume_facebook_url:          "https://facebook.com/officialtrento"
+  resume_twitter_url:           "http://twitter.com/lantoniotrento"
+  resume_facebook_url:          "https://facebook.com/lantoniotrento"
   resume_linkedin_url:          "https://www.linkedin.com/in/antoniotrento"
-  resume_instagram_url:         "https://instagram.com/officialtrento"
-  resume_website_url:           "https://antfolio.github.io"
+  resume_instagram_url:         "https://instagram.com/lantoniotrento"
+  resume_website_url:           "https://lantoniotrento.github.io"
 
 twitter_username: lantoniotrento
 # Design settings
