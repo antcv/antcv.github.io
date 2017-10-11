@@ -2805,12 +2805,12 @@ Video
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {   
-  .sgv-mask{
-  width: 70%!important;
-  height: 70%!important;
-  }  
+ 
 }
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
-and (orientation : portrait) { /* STYLES GO HERE */ }
+and (orientation : portrait) {   .sgv-wrapper{
+  width: 70%!important;
+  height: 70%!important;
+  }  }
