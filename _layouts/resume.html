@@ -921,7 +921,7 @@ AABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 0 0)">
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img  id="intro" src="images/fototessera-antonio-trento.png" alt="Antonio Trento foto" class="avatar" itemprop="image">
+        <img  id="intro" src="{{site.url}}/images/fototessera-antonio-trento.png" alt="Antonio Trento foto" class="avatar" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -949,7 +949,7 @@ AABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 0 0)">
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contattami</a>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contatta</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking">Ora sembra io non funzioni... Scusa.</a>
         {% else %}
