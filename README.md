@@ -24,11 +24,13 @@
              @lantoniotrento
 
 -->
-# resume-template
+# Antonio Trento resume 
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+*Il curriculum vitae con esperienze lavorative e professionali.*
 
-![img](images/screenshot.png)
+
+
+Utilizzalo anche tu ed ospitalo gratis su [Git Hub Pages](https://pages.github.com)
 
 ## Docs
 
